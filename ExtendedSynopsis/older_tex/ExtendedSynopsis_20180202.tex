@@ -1,0 +1,536 @@
+%\documentclass[11pt,epsf]{article}
+\documentclass[oneside, a4paper, onecolumn, 11pt]{article}
+
+\usepackage{graphicx, amssymb, multicol, amsmath}
+\usepackage{fancyhdr, hyperref, sidecap}
+%\usepackage[left=2.05cm,top=2.05cm,bottom=1.55cm,right=2.05cm]{geometry}
+\usepackage[left=2.05cm,top=2.05cm,right=2.05cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}	        %%  bibliography style
+\setlength{\bibsep}{0.0pt}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{nopageno}
+\usepackage{fancyhdr}
+
+
+\input{format}
+
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+
+\tcbset{tab1/.style={enhanced, fonttitle=\bfseries, fontupper=\normalsize\sffamily,
+colback=yellow!10!white,
+colframe=red!50!black,
+colbacktitle=Cerulean!40!white,
+coltitle=black,center title}
+%subtitle style={boxrule=0.4pt, colback=yellow!50!red!25!white} 
+}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+
+%\pagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2018-CoG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{{\it }}
+\rhead{Part B1}
+\setcounter{page}{1}
+\lfoot{{\it ERC-2018-CoG}}
+\rfoot{{\it Extended Synopsis}}
+\cfoot{{\it Page \thepage\ of 5}}
+%\rfoot{{\it FP7-PEOPLE-2013-IIF}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+
+\begin{document}
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf{\textcolor{Cerulean}{a. Extended Synopsis}}} 
+\vspace{6pt}
+
+\noindent
+%\Huge \huge \LARGE \Large \large \normalsize (default) \small \footnotesize \scriptsize \tiny
+\large
+{\bf{\textcolor{Cerulean}{Overview and Objectives}}}
+\normalsize
+
+\smallskip
+\noindent
+Current theories of galaxy formation and evolution now strongly
+suggest that central, supermassive black holes (SMBHs) have a profound
+affect on the galaxies that they live in. This is not surprising since
+the potential energy associated with mass accretion onto a
+supermassive black hole is comparable to that generated via the
+nuclear fusion in the galaxy's stars. Thus when a galaxy goes through
+a ``quasar'' phase, there is ample energy to
+potentially impact the host galaxy and surrounding intergalactic
+medium.
+
+\smallskip
+\smallskip
+\noindent
+However, the interaction and the details of physical processes involved in how
+this energy escapes the inner most regions of the galaxy and then
+interacts with the gas, dust, stars and dark matter, is currently poorly understood, 
+with current observational data giving more puzzles
+than clues on how to make progress. Further issues arise since startling new 
+observations (e.g. MacLeod, Ross et al. 2016; Ross et al. 2018) show that {\it
+quasars vary significantly on timescales of weeks to months}, whereas the
+accretion disks (that are thought to supply the `fuel' for the quasar) 
+should take thousands of years to change their optical emission (see
+e.g. Lawrence 2018, Nature Astronomy).  Thus, it is unclear to what level we have 
+an understanding of a prevalent astrophysical phenomena; the
+accretion disk.
+
+
+\smallskip
+\smallskip
+\noindent
+The field of observational extragalactic astrophysics is poised for a
+fundamental and rapid change. 
+Starting in late 2019, a fleet of new telescopes, instruments and missions are coming 
+online over the next few years that will leap-frog the quality and
+quantity of data we have available today. Over the course of the next
+5-6 years, surveys and missions including the fifth incarnation of the
+Sloan Digital Sky Survey
+(SDSS-V\footnote{\href{www.sdss.org/future/}{{\tt
+www.sdss.org/future/}}}), the Large Synoptic Survey Telescope
+(LSST\footnote{\href{lsst.org}{{\tt lsst.org}}}), the Dark Energy
+Spectroscopit Instrument (DESI\footnote{\href{desi.lbl.gov}{{\tt
+desi.lbl.gov}}}) survey, the 4-meter Multi-Object Spectroscopic
+Telescope (4MOST\footnote{\href{4most.eu}{{\tt 4most.eu}}}) survey,
+and the ESA {\it Euclid}
+mission\footnote{\href{sci.esa.int/euclid/}{{\tt
+sci.esa.int/euclid/}}}, will see first light. Even more imminent is
+the launch of the {\it James Webb Space Telescope}
+(JWST\footnote{\href{jwst.stsci.edu}{{\tt jwst.stsci.edu}}}).
+
+\smallskip
+\smallskip
+\noindent
+This proposal has two broad and well-posed goals.  First, we aim to
+elucidate in detail {\it how the energy directly associated with a
+supermassive black holes impacts the universal galaxy population.}  We
+will gain a deep understanding into the physical mechanisms related to
+central engine black holes; their accretion disk physics, their
+dynamics on both human and galactic timescales and the role they might
+play in forming, and regulating the galaxy population. 
+We will investigate what the observed rapid changes tell us about the SMBH and accretion discs, 
+and does ``quasar feedback'' regulate galaxy formation?
+{\it Ultimately, we want to discover if there is a missing link between the 
+activity on sub-parsec scales that impacts on the galaxy-wide kiloparsec scales.}
+These are among the most prescient astrophysical issues of our time, 
+and where major breakthroughs are imminent.
+
+\smallskip
+\smallskip
+\noindent
+Second, we will {\it discover brand new extragalactic phenomena.}  By
+tapping into the massive and raw discovery space that the new
+experiments will open up, there is the highly likely outcome of
+discovering something ``brand new''. The LSST will deliver a dataset
+so spectacularly different both in sky coverage and time-sampling
+coverage, that the Universe would have to be an exceptionally boring
+place to not have brand new astronomical objects and astrophysical
+phenomena waiting to be discovered.
+
+\smallskip
+\smallskip
+\noindent
+We will achieve this by leveraging several of the new, large-scale
+surveys that are coming online in the next few years. These critical
+observations are made by exploiting the large imaging and
+spectroscopic datasets that we will have available from the SDSS-V,
+DESI, 4MOST, LSST and ESA {\it Euclid}. {\it Crucially, although these 
+projects individually will deliver new state-of-the-art datasets, it is 
+our project that will be the first to break down the associated data 
+silos and combine these data in order to go beyond the state-of-the-art.}
+
+\medskip
+\medskip
+\noindent
+\large
+{\bf{\textcolor{Cerulean}{1. Current State of the Art.}}}
+\normalsize
+
+\smallskip
+\noindent
+The current state-of-the-art data samples have $\approx$10$^{6}$
+quasars with one spectral epoch, or only $\sim$a few objects with
+repeat spectra (e.g, MacLeod, Ross et al. 2016; Ross et al. 2018, Figure~\ref{fig:J110057}).  We
+plan to collate datasets so that the 10$^{6}$ sample have
+light-curves and repeat spectra and in doing so, will kickstart the
+new field of Variable Extragalactic Astrophysics.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \hspace{-0.5cm}
+    \includegraphics[height=6.25cm,width=17.2cm]
+    {figures/J110057_LC_Spectra_20171024.pdf}
+    \vspace{-10pt}
+    \caption{%\small      
+      \footnotesize 
+      % \scriptsize
+      % \tiny
+      {\it (Left:)} The optical and infrared light-curve for the redshift $z=0.378$ quasar 
+      J1100-0053 (Ross et al. 2018). 
+      Note the fall in the infrared, whereas there is a decrease, but 
+      then recovery in the optical. 
+      {\it (Right:)} 
+      Three epochs of spectra for J1100-0053. 
+      The spectacular downturn in the blue for the 2010 spectrum 
+      indicates a dramatic change in the accretion disk.
+    }
+  \vspace{-16pt}
+ \label{fig:J110057}
+\end{center}
+\end{figure}
+
+
+\smallskip
+\smallskip
+\noindent
+During its initial phases of operation the Sloan Digital Sky
+Survey (SDSS) obtained spectra of 1 million galaxies in the local
+Universe. This dataset has become the {\it de facto} standard for
+understanding the present day galaxy population, and sets the boundary
+conditions for all theoretical comparisons. The paradigm changing
+success of the SDSS was due to it having 1,000,000 objects {\it with very 
+high SNR photometry and spectra}, enabling
+multivariate analysis that is required for galaxy
+astrophysics investigations.  {\it We desire the same sample size and revolutionary
+understanding of the quasar population as the SDSS had with the
+$z\sim0.1$ galaxy population.}  Our proposal takes quasar astrophysics
+into the 2020s, going from single objects samples, to surveys and
+samples of millions of objects, {\it with massive spectroscopic monitoring 
+giving access to the time-domain} and leveraging these very large scale next
+generation missions, telescopes and their datasets.
+
+
+
+
+\begin{figure}[h]
+  \begin{center}
+   \hspace{-0.5cm}
+%   trim=l b r t
+    \includegraphics[width=16.0cm] %, trim={0.05cm 0 0.05cm 0},clip]
+    {figures/Timelines_and_Facilites.pdf}
+    \vspace{-10pt}
+   \caption{Facilites, Timelines and Priorities. Withe SDSS and DESI in the Northern Hemisphere and 
+4MOST, LSST in the South, we have full celestrial sphere coverage.}
+  \vspace{-12pt}
+ \label{fig:Keynote_facilites}
+\end{center}
+\end{figure}
+
+\smallskip
+\smallskip
+\noindent
+{\it The timing for this proposal could not be better.}  The first of
+the data ``firehoses'' turns on in late 2019, with the full datastream
+from our key sources fully online around 2022.  As such, we have the
+time to mature our analysis techniques, and then being in the ideal
+position to take advantage of the initial data releases of all these
+new projects.
+
+\smallskip
+\smallskip
+\noindent
+The importance of this branch of astrophysics is already well
+establish in Europe and is a priority for the next two decades. This
+is demonstrated by noting that one of the two primary mission goals
+for the Advanced Telescope for High-ENergy Astrophysics (ATHENA) mission 
+is answering the question ``How do black holes grow and shape the
+Universe?''.  ATHENA is ESA's second L-class flagship mission, due for
+launch in 2028.
+
+
+\smallskip
+\smallskip
+\noindent
+{\it The scope and remit of an ERC Consolidator grant will allow us to
+combine these data products in a manner that will not only establish
+the new state-of-the-art in variable extragalactic astrophysics, it
+will establish and kickstart the new field of variable extragalactic
+astrophysics itself.}
+
+
+
+
+\medskip
+\medskip
+\noindent
+\large
+{\bf{\textcolor{Cerulean}{2. Methodology}}}
+\normalsize
+
+\noindent
+Our proposal contains eight work packages that fall into three broad and 
+complementary categories: observational studies of large numbers
+(millons) of objects; high-risk, very high-reward observational
+studies of a small number (10s) of objects, and theoretical modeling
+investigations. Risks and mitigation strategies are present for each
+WP. Table 1 summarises our overal WP plan. 
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP1: Build an Event Broker:}} 
+The LSST will deliver three levels of data products and
+services and being in the U.K. gives us access to all three. 
+%The ``Level 3'' Data Products are the user-created data product services that will enable our science case. 
+ In order to utilize the LSST data for our science needs we will need to build an {\it event
+broker}, an intermediary program module that interacts with primarily
+the ``Level 3'' data products from the LSST.
+%% \noindent
+{\bf WP1 is low-risk, high-reward.} 
+The goal of this WP is to build an Event Broker.  The heavy-industry
+computing infrastructure is already being supplied by the LSST Data
+Access Center. Our task will be to build software in a timely and
+robust manner. At the effort level of one PDRA (``PDRA 1'') and
+commitment from the P.I., (NPR) along with the algorithm resources 
+and key personel, e.g. Prof Andy Lawrence (AL) and Prof. Bob Mann (RGM),  
+at the Royal Observatory, Edinburgh, there is no
+element of this which can be deemed high-risk.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP2: Quasar Catalogue Generation:}} 
+Building the quasar corpus and cataloguing the observational data will
+be a large, but vital step in beginning to pursue our science
+goals. This catalogue will be the glue that binds the observational
+projects together and will have not only the data, but moreover the
+metadata to enable the other WPs.
+% \noindent
+{\bf WP2 is low-risk, high-reward.}
+The goal of this WP is to construct a quasar catalogue.
+This is a full WP, and with the P.I.s (NPR) experience at this
+specific task, plus the effort level of one PDRA (``PDRA 2'') there is
+no element of this which can be deemed high-risk.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP3: Light-Curve and Spectral Analyses:}} 
+Following on from the quasar corpus catalogue generation, one key
+science output will be the full and detailed light-curve and spectral
+analyses of the said catalogue. This will result in the discovery of
+light-curve trends with quasar type, new methods to measure black hole
+mass and the relatively easy check to see which quasars have become
+``changing-look'' objects. This WP will have a data science/machine learning 
+aspect.
+% \noindent
+{\bf WP3 is low-risk, high-reward.} 
+The goal of this WP is to elucidate the physical processes that drive quasar variability.
+The full Light-Curve and Spectral
+Analyses that we envisaged will be a significant amount of work,
+leading to significant high-reward science. This particular work
+package will be broken down into small projects and the level of two
+PDRAs (``PDRA 1'' and ``PDRA 2''), as well as the P.I. (NPR) and a PhD
+student (``PhD 1'') will be directed towards this. This level of investigation 
+is highly novel, but there is no element of this which can be deemed high-risk.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP4: Quasar Demographic studies:}} 
+Another major scientific output that will originate from the quasar
+corpus catalogue generation will be the study of the Quasar
+Demographics from our datastreams. This is different from WP3 in that
+these investigations wont necessarily be tied to the time-domain
+aspect of our catalogue, but will be the crucial baseline that we, and
+the field in general, will use to compare to the time-depedent
+discoveries. Luminosity function, clustering and higher-order
+statistics will be made in order to precisely determine the census of
+AGN, their environments, their host galaxy preferences and their
+evolution. All these are vital observational tests for galaxy
+formation models and theory (see WP6 below).
+% \noindent
+{\bf WP4 is low-risk, high-reward.}
+The goal of this WP is to make the key observational tests that have
+to be explained by any viable galaxy formation theory.  Similar to
+WP3, the analyses that we envisaged will be broken down into smaller
+projects and the level of two PDRAs (``PDRA 1'' and ``PDRA 2''), as
+well as the P.I. (NPR) and a PhD student (``PhD 1'') will be directed
+towards this. There is no element of this which can be deemed
+high-risk.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP5: Accretion Disk Simulation:}} 
+New accretion models are needed to fully explain the observational
+data of ``changing look'' quasars that we have examples of today (see
+e.g. Ross et al. 2018). New radiation MHD codes begin to explain the
+observations here, but further development is needed to gain the
+desired deep understanding. 
+% \noindent
+{\bf WP5 is lower-risk, very high-reward.}
+The goal of WP5 is to develop new accretion disk simulations that
+explain our observational results.  This will be the lead WP for one
+PDRA (``PDRA 3'') and a low level of the P.I.'s (NPR) time. We
+classify WP5 not as fully `low-risk', since we envisage some ramp-up
+time to get our theoretical simulations to the level that will be required by 
+our beyond-the-state-of-the-art dataset. However, we mitigate this risk
+by invoking the collaboration with an accretion disk theorist
+Prof. Ken Rice (WKMR) who is the Personal Chair of Computational
+Astrophysics in the School of Physics and Astronomy here at the
+University of Edinburgh. NPR and WKMR and PDRA3 would thus collaborate 
+on this WP. 
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP6: AGN Feedback Simulations:}} 
+Cosmological-scale hydrodynamic simulations are now coming online. 
+While we do not seek to lead or generate new versions of these, we do 
+envisaged using their outputs in order to `benchmark' our observational 
+demographic work. 
+% \noindent
+{\bf WP6 is low-risk, high-reward.}
+All the data from these simulations is already in place today, though no one 
+has embarked on doing any of the `heavy-lifting' and comparisons we will 
+have the observational results for. Professor Romeel Dave (RSD) who is a Chair of Physics 
+in the Institute for Astronomy will be a key collaborator here. 
+NPR and RSD and PDRA3 and/or PDRA2 would thus collaborate on this WP. 
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP7: Observations of Quasars by the James Webb Space Telescope:}} 
+What are the star-formation properties of mid-infrared luminous quasars at the peak of quasar activity? 
+We aim to answer this by looking for the presence of polycyclic aromatic hydrocarbon (PAH) spectral features 
+in $z \approx 2.5$ infrared bright quasars with the James Webb Space Telescope (JWST). 
+% \noindent
+{\bf WP7 is high risk, high-reward.}
+This is an ideal investigation for the JWST, but we classify this as
+`high-risk' since this is the one telescope/survey/mission where we
+would have to bid and apply for the telescope time and are not guaranteed
+the data. We mitigate the risk here by saying that this will be the
+one project the P.I. (NPR) would directly lead, does not impact in any direct way any of
+the other WPs and would lead to very-high gain science.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{WP8: New Object Discovery:}} 
+The LSST will scan the sky repeatedly, enabling it, and us, to both
+discover new, distant transient events and to study variable objects
+throughout our universe. The most interesting science to come may well
+be the discovery of new classes of objects.
+% \noindent
+{\bf WP8 is medium-to-high risk, exceptionally high-reward.}
+We class this as medium-to-high risk, since it is tricky to class a WP
+with essentially unknown discovery potential as fully `low-risk'.
+Suffice to say, this would be exceptionally high-reward
+
+
+
+\begin{figure}[h]
+  \begin{center}
+   \hspace{-0.5cm}
+%   trim=l b r t
+    \includegraphics[width=16.0cm] %, trim={0.05cm 0 0.05cm 0},clip]
+    {figures/workplan.pdf}
+    \vspace{-10pt}
+ %  \caption{}
+  \vspace{-12pt}
+ \label{fig:Keynote_facilites}
+\end{center}
+\end{figure}
+
+
+\smallskip
+\smallskip
+\noindent
+\large
+{\bf{\textcolor{Cerulean}{3. Resources,  Survey `buy-in' and Budget}}}
+\normalsize
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{Personnel:}} 
+We request the resources and support for 90\% of the time and effort
+for the P.I. (100\% is not claimed just in case non-project
+opportunities arise, e.g. guest lecturing).  We request the resources and support for 3 Postdoctoral
+Research Associates (PDRAs), for a total of 10 PDRA year
+equivalents. This will be broken down as a three year term for ``PDRA
+1'', a three year term for ``PDRA 2'' and a 2+2 year term for ``PDRA
+3''.  We request the resources and support for 1 UK/EU PhD
+studentship.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{Survery Buy-in:}} 
+We request support for the ``buy-in'' to two of the new surveys,
+SDSS-V and DESI. The costs here are \$230,000 (\euro184,100) for
+SDSS-V and \$250,000 (\euro200,100) for DESI.  We ask this support to
+come from the ``additional funds that can be made available to cover
+access to large facilities.''  We specficially request access to these
+funds as it gives our project the ``Full House'' of telescopes and
+data in the North and Southern Hemispheres (for complete coverage of
+the celestial sphere) and delivers the early spectroscopy that will be
+vital to train, test and build our data science and machine learning
+codes and algorthims. {\it Buy-in here would place the P.I. and the
+University of Edinburgh as the only group and place in the world to be involved
+in SDSS-V, DESI, 4MOST, LSST and ESA {\it Euclid} and JWST}.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{Computing Requirements:}} 
+With the availability of the facilites at an institute (e.g. IfA
+Cullen), university
+(e.g. \href{https://www.ed.ac.uk/information-services/research-support/research-computing/ecdf}{``Edinburgh
+Compute and Data Facility''} and at a national
+{\href{https://www.hartree.stfc.ac.uk/Pages/home.aspx}{(The Hartree
+Centre)} level, the rate limiting factor will be how quickly and
+efficiently we can deploy our codes, and analysis, i.e. person-power.
+%The rate limiting factor, in the vast majority of endevours, is (a) data access and (b) development.
+
+
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{Travel:}} 
+We request support for travel for all 5 members of the group,
+including repeat medium-term (i.e., few weeks) travel to the US and
+ESO Chile to work with key collaborators at critical timings of the
+First Light for the new telescopes.
+
+
+
+
+\input{references}
+
+
+\end{document}

@@ -1,0 +1,616 @@
+%\documentclass[11pt,epsf]{article}
+\documentclass[oneside, a4paper, onecolumn, 11pt]{article}
+
+\usepackage{graphicx, amssymb, multicol, amsmath}
+\usepackage{fancyhdr, hyperref, sidecap}
+%\usepackage[left=2.05cm,top=2.05cm,bottom=1.55cm,right=2.05cm]{geometry}
+\usepackage[left=2.05cm,top=2.05cm,right=2.05cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}	        %%  bibliography style
+\setlength{\bibsep}{0.0pt}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{nopageno}
+\usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+\input{format}
+
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+
+\tcbset{tab1/.style={enhanced, fonttitle=\bfseries, fontupper=\normalsize\sffamily,
+colback=yellow!10!white,
+colframe=red!50!black,
+colbacktitle=Cerulean!40!white,
+coltitle=black,center title}
+%subtitle style={boxrule=0.4pt, colback=yellow!50!red!25!white} 
+}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+
+%\pagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2018-CoG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{{\it }}
+\rhead{Part B1}
+\setcounter{page}{1}
+\lfoot{{\it ERC-2018-CoG}}
+\rfoot{{\it Extended Synopsis}}
+\cfoot{{\it Page \thepage\ of 5}}
+%\rfoot{{\it FP7-PEOPLE-2013-IIF}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+
+\begin{document}
+
+%\begin{center}
+% {\Large \bf \textcolor{Cerulean}{Data Science at the Edge of the Universe: Using Quasars to  \\}}
+%\vspace{4pt} 
+%%  {\Large \bf \textcolor{Cerulean}{the new field of Extragalactic Variable Astrophysics} }
+ % {\Large \bf \textcolor{Cerulean}{kickstart  the new field of Extragalactic Time-Domain Astrophysics} }
+%\end{center}
+
+%\begin{quotation}
+%\noindent
+%{\it 
+%We will kickstart the new field of Extragalactic Time-Domain Astrophysics by building on our team's experience of using novel observational techniques to study accreting black holes in the early Universe. We will do this by utilizing and combining the firehose of data from several new large surveys that will start to come online from late 2019 onwards.  In doing so, we will learn about one of the two fundamental energy sources available to galaxies (accretion onto the central supermassive black hole) and perform the observational tests to gather the evidence to distinguish between galaxy evolution models and theory. We will also be best positioned to discover totally new extragalactic phenomena. 
+%}
+%\end{quotation}
+
+\smallskip
+\smallskip
+\noindent
+%{\bfseries \large \textcolor{Cerulean}{Overview}}
+\section*{\textcolor{Cerulean}{1. Overview}}
+Where do galaxies come from? How do black holes form and grow? And
+what is the history, and fate, of the Universe?  These are the
+deepest, most fundamental questions in astrophysics and cosmology, and
+sets the scene for this proposal.
+
+\smallskip
+\smallskip
+\noindent
+{\it Black holes} are omnipresent in our Universe, and black holes
+that are millions to billions of times the mass of our Sun, are
+ubiquitously found at the centers of galaxies, including our own Milky
+Way.  Initially consider physical oddities, we now strongly suspect
+that these central, ``supermassive'' black holes have a profound
+affect on the galaxies that they live in. This is not surprising since
+the potential energy associated with mass accretion onto a
+supermassive black hole is comparable to that generated via the
+nuclear fusion in the galaxy's stars.
+%%
+However, the interaction and the physical processes involved in how
+this energy escapes the inner most regions of the galaxy and then
+interacts with the gas, dust, stars and dark matter, is currently very
+poorly understood theoretically, with observational data giving little
+insight on how to make key progress.
+
+\smallskip
+\smallskip
+\noindent
+\underline{{\it The field is poised for a fundamental and rapid
+change.}} The first data are now in hand that show changes on human
+timescales in external galaxies, with these new field-defining studies
+including projects led by the P.I.  Moreover, a fleet of telescopes,
+detectors and missions are about to come online over the next few
+years that will leap-frog the quality and quantity of data we have
+available today. Over the course of the next 5-6 years, surveys and
+missions including SDSS-V, LSST, DESI, 4MOST and ESA {\it Euclid} will
+see first light. Even more imminent is the launch of the {\it James
+Webb Space Telescope}.
+
+\smallskip
+\smallskip
+\noindent
+The current state-of-the-art has a sample of $\approx10^{6}$ objects
+with one spectral epoch, or only has single objects with the repeat
+spectra (e.g, MacLeod, Ross et al. 2016; Ross et al. 2018).  
+We plan to make sure the $\approx10^{6}$ sample have
+repeat spectra and in doing so, will kickstart the new field of
+Extragalactic Time-Domain Astrophysics.
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf This proposal has two broad but well-posed goals.}
+First, we aim to elucidate, for the first time, how the energy
+directly associated with a supermassive black holes impacts the
+universal galaxy population.
+%%
+Second, will open up and explore the Variable Extragalactic Universe,
+bringing to bear the slew of new larget format ``synoptic''
+telescopes. Things will go ``bang in the middle of the night''; we
+just don't know what they are yet. 
+%
+%% NS-NS merger (EM signatures in the blue...) ...
+%% Unify the four fundamental forces of nature...
+
+\smallskip
+\smallskip
+\noindent
+We will achieve this by leveraging several of the new, large-scale
+surveys that are coming online in the next few years.
+%%
+The goal is to connect the physical mechanisms from sub-parsec to
+cosmological scales, and to investigate the physical processes that
+link luminous AGN activity and the formation and evolution of massive
+galaxies. These critical observations are made by exploiting the large
+imaging and spectroscopic datasets that we will have available from
+the SDSS-V, DESI, 4MOST, LSST and ESA Euclid.
+%%
+We ask for the personnel to accomplish these vey ambitious, but
+achievable goals, along with the `buy-in' to the facilites we need
+access to.  We also ask for the computing and travel support that will
+directly enable this research.
+
+\smallskip
+\smallskip
+\noindent
+{\it The scope and
+remit of an ERC Consolidator grant will allow us to combine these data
+products in a manner that will not only establish the new
+state-of-the-art in extragalactic time-domain science, it will
+establish and kickstart the new field of extragalactic time-domain 
+science itself.}
+
+%\smallskip
+%\smallskip
+\noindent
+\section*{\textcolor{Cerulean}{2. Scientific Background}}
+Quasars are extremely bright extragalactic objects powered by gas
+falling onto supermassive black holes.  They are detected in optical
+surveys, both via their photometric and spectra properties.  Accretion
+onto a supermassive black hole is one of two major energy sources
+available to a galaxy.  However, we do not know how this energy
+escapes the central regions where it is generated, and how it
+interacts with the galaxy at large.
+
+\smallskip
+\smallskip
+\noindent
+In the Table below, we summarise the outstanding issues, and our novel investigations. 
+
+\smallskip
+\smallskip
+\input{KeyQs_table}
+
+%\smallskip
+%\smallskip
+%\noindent
+%Within the next 5 - 6 years a fleet of new surveys will come online. 
+
+
+\smallskip
+\smallskip
+\noindent
+During its first phase of operation from 2000–2005, the SDSS obtained spectra 
+of 1 million galaxies in local Universe. This dataset has become the {\it de facto} standard 
+for understanding the present day galaxy population, and setting a boundary 
+condition for all theoretical comparisons. 
+%%
+{\it The paradigm changing success of the SDSS was due to it having 1e6 objects. 
+We desire the same sample size and revolutionary understanding of the quasar 
+population as the SDSS had with the $z\sim0.1$ galaxy population.}
+
+
+\smallskip
+\smallskip
+\noindent
+Funding this ERC Consolidator grant proposal will radically improve
+our understanding of one of the two fundamental energy sources
+available to galaxies; that of accretion onto the compact object in
+the central engine.
+%% 
+The P.I. is a world-leader in observational quasar astrophysics, both
+in terms of survey work and individual object study.
+%%
+Our proposal takes astrophysics into the 2020s, going from single
+objects samples, to surveys and samples of millions of objects
+leveraging these multi-billion Euro/dollar/pound next generation
+missions, telescopes and their subsequent datasets.
+
+
+
+\section*{\textcolor{Cerulean}{3. The Future is Now: Project in larger context}}
+%%  You need to answer 5 key questions: 
+%%
+%    Why bother? , 
+%    What problem are you trying to solve?
+%\smallskip
+%\smallskip
+%\noindent
+\textbf{\textsc{\textcolor{Cerulean}{Global Motivation:}}}
+At its heart, there are two major motivations for our project.  The
+first is to gain a deep understanding into the physical mechanisms
+related to central engine black holes; their accretion disk physics,
+their dynamics on both human and galactic timescales and the role they
+might play in forming, and regulating the galaxy population. These are
+among the most prescient astrophysical questions of our time, and in
+an area where major breakthroughs are imminent.
+
+\smallskip
+\smallskip
+\noindent
+The importance of this branch of astrophysics is already well
+establish in Europe and is a priority for the next two decades. This
+is demonstrated by noting that one of the two primary mission goals
+for the Advanced Telescope for High-ENergy Astrophysics (ATHENA) is
+answering the question ``How do black holes grow and shape the
+Universe?''.  ATHENA is ESA's second L-class flagship mission, due for
+launch in 2028.
+
+\smallskip
+\smallskip
+\noindent
+The second motivation is the massive, untapped and raw discovery space
+that the new experiments will open up, and the likely outcome of
+discovering something ``brand new''. It is somewhat tricky to say
+specifically what to expect, but the fact that e.g. LSST will deliver
+a dataset {\it so spectacularly} different both in sky coverage and
+time-sampling coverage, means the Universe would have to be an
+exceptionally boring (and unfair!) place to not have a brand new
+astronomical object and astrophysical phenomena be discovered.
+
+%% Is this a European priority? , 
+%% Could it be solved at a national level? 
+\smallskip
+\smallskip
+\noindent
+\textbf{\textsc{\textcolor{Cerulean}{Maximising Science Returns from European priorities:}}}
+Contemporary astronomy is a multi-national endeavor with many leading
+facilites being international collaborations. Although a project, with
+similar but much less ambitious science goals and return could be
+envisaged at the national level, the full discovery and break-through
+nature being described herein only comes to the fore when the data
+from the various international collaborations are combined
+intelligently.  Critically data from leading European Southern
+Observatory (ESO) and European Space Agency (ESA) facilites will play
+a pivotal role here.
+
+\smallskip
+\smallskip
+\noindent
+Although many of the ``building blocks'' for the the solution are
+already available (e.g. open source codes, database infrastructures,
+the methodology of catalog creation and combination) no one has yet to
+combine the data in the way we envisage. Moreover, the datasets we
+desire to deliver our paradigm changing science are only coming online
+over the next 5-10 years.
+
+
+\smallskip
+\smallskip
+\noindent
+%% Why now? 
+%% What would happen if you did not do this now?, 
+\textbf{\textsc{\textcolor{Cerulean}{Timing:}}}
+{\it The timing for this proposal could not be better or more imperative.} 
+The first of the data data ``firehose'' turns on in late 2019, with
+the full datastream from our key sources fully online around 2021. 
+As such, with two years to use exisiting datasets as testbeds, we 
+have the time to ramp-up our efforts, while also being able to 
+take advantage of the first data releases of all these new projects. 
+%% LSST:: Each patch of sky it images will be visited 1000 times during the survey,
+%%
+%% https://www.youtube.com/watch?v=kpdLDJXEmys
+%% https://www.youtube.com/watch?v=ScKuACRkGnM
+%%
+%% https://pbs.twimg.com/media/DTL8RM3X0AE9by3.jpg
+
+\begin{figure}[h]
+  \begin{center}
+   \hspace{-0.5cm}
+%   trim=l b r t
+    \includegraphics[width=16.0cm] %, trim={0.05cm 0 0.05cm 0},clip]
+    {figures/Timelines_and_Facilites.pdf}
+    \vspace{-10pt}
+   \caption{}
+  \vspace{-12pt}
+ \label{fig:Keynote_facilites}
+\end{center}
+\end{figure}
+
+\smallskip
+\smallskip
+\noindent
+%The model indicates that the first group of people to use a new
+%product is called ``innovators'', followed by ``early adopters''. 
+%%
+\textbf{\textsc{\textcolor{Cerulean}{Data Science and Observational Astrophysics:}}}
+Data science is a new interdisciplinary field of scientific methods to extract knowledge or insights from data in
+various forms, either structured or unstructured. It employs
+techniques and theories drawn from many fields within the broad areas
+of mathematics, statistics, information science, and computer science,
+in particular from the subdomains of machine learning, classification,
+cluster analysis, data mining, databases, and visualization.  {\it
+Modern day observational astrophysicists are in all but the term data
+scientists, and as such, this proposal is inherently
+interdisciplinary.}
+
+\begin{figure}[h]
+  \begin{center}
+   \hspace{-0.5cm}
+%   trim=l b r t
+    \includegraphics[width=16.0cm] %, trim={0.05cm 0 0.05cm 0},clip]
+    {figures/workplan.pdf}
+    \vspace{-10pt}
+ %  \caption{}
+  \vspace{-12pt}
+ \label{fig:Keynote_facilites}
+\end{center}
+\end{figure}
+
+
+\smallskip
+\smallskip
+\noindent
+%% Why you?. 
+%% Do you have the best consortium to do this work? 
+The P.I. has become a world-leader in the field of extragalactic
+quasar observational astrophysics.  Moreover, however, the University
+of Edinburgh is now poised to be an astronomical data centre nexus,
+with access to the two largest datasets in our proposal; LSST, Euclid. 
+%% \smallskip \smallskip\noindent
+%There are very few people in the world that 
+The P.I. has built their career on this science case, and has already been a P.I. 
+of a Working group team (as part of a collaboration) with prodigious scientific
+output (400 published, peer-reviewed papers and counting). 
+%%
+%Given the science goals, the P.I.'s track record and ambition and 
+%the nature of this project, this proposal satisfies all the aims and goals
+%of the ERC Con. 
+%%
+%%
+%%
+%You should aim to have these addressed in the first paragraph of your proposal! 
+%%
+%The “WHY NOW” is one of the most important ones for ERC.
+%%
+%% The ERC panel will evaluate the PI’s “intellectual capacity, creativity and commitment”. 
+%% This includes:
+%% -- ability to propose and conduct ground-breaking research and
+%% -- achievements going beyond the state-of-the-art
+%% -- abundant evidence of creative independent thinking
+%% -- the ERC grant would contribute significantly to the establishment and/or further consolidation of the PI's independence
+%% -- commitment to the project (minimum 50\% of the PI’s total working time)
+
+
+\smallskip
+\smallskip
+\noindent
+%\section*{\textcolor{Cerulean}{Scientific Background and Motivation}}
+\section*{\textcolor{Cerulean}{4. Feasibility, Projects and Methodology}}
+%We set out a range of projects in Table~1.
+
+%\subsection*{Feasibility}
+%The extended synopsis should provide a concise presentation for the
+%scientific proposal, including the feasibility of the project and
+%paying particular attention to the ground breaking nature of the
+%proposal and how it may open new horizon or opportunities for
+%research. Give some background to the project and make sure you
+%explain the proposed work in the context of the state of the art.
+
+%\subsection*{P.I.'s Experience and Track Record}
+\textbf{\textsc{\textcolor{Cerulean}{P.I.'s Experience and Track Record:}}}
+The P.I. has an established track record of managing science teams and groups, e.g., 
+
+\begin{itemize}
+\item The P.I. was Chair of the SDSS-III BOSS Quasar Target
+Selection team. Once BOSS was successfully running, he became the Chair
+of the Quasar Science Working Group. In both roles, he was managing a
+group of senior professors, other postdocs and graduate students.
+%% \noindent
+The scientific yield from the BOSS Quasar Survey was extremely high,
+with highlights including: the first detection of baryon acoustic
+oscillations at $z>1$; the first detection of baryon acoustic
+oscillations using quasars; the first measurements of ``the knee'' of
+the $z\sim2.5-3$ and $z=5$ optical quasar luminosity function, and the
+discovery of the first ``Changing Look'' Quasar.  BOSS also allowed
+the first identification of ``extremely red'' quasars, which are a
+unique obscured quasar population with extreme physical conditions
+related to powerful outflows. {\it The P.I. either led, or was heavily
+involved in, all these projects, and \href{https://tinyurl.com/ycxd8lb6}{over 400 publications} have used
+the BOSS Quasar catalogs}.
+
+\item The P.I. spent a considerable amount of time in 2017 working as the
+Chief Data Scientist for a San Francisco Bay Area tech start-up. 
+
+\item The P.I. is an STFC Ernest Rutherford Fellow, with a budget of \euro615,000 on award. 
+
+
+\end{itemize}
+
+\subsection*{Breaking Down The Data Silos}
+The biggest obstacle to using advanced data analysis is not skill base or technology; it is simply access to the data.
+%%
+A data silo is a repository of fixed data that remains under the
+control of one department and is isolated from the rest of the
+organization, much like grain in a farm silo is closed off from
+outside elements. Data silos can have technical or cultural roots.
+
+%https://hbr.org/2016/12/breaking-down-data-silos
+\noindent
+There is a cost to using data. Behind the glamor of powerful
+analytical insights is a backlog of tedious data preparation. Since
+the popular emergence of data science as a field, its practitioners
+have asserted that 80\% of the work involved is acquiring and
+preparing data. Despite efforts among software vendors to create
+self-service tools for data preparation, this proportion of work is
+likely to stay the same for the foreseeable future, for a couple of
+reasons.
+
+\noindent
+But there is a bigger and costlier demon that lurks in enterprises. A
+demon that can drive up that 80\% and often makes initiatives
+impossible: data silos. These silos are isolated islands of data, and
+they make it prohibitively costly to extract data and put it to other
+uses. They can arise for multiple reasons.
+%%
+In commercial enterprises, data remained siloed for many reasons, a
+major one being of course for monetary gain.  However, in research
+environments, and {\it especially in contemporary observational
+astrophysics}, the data silos are open, but due to the lack of raw
+person-power. 
+
+
+\subsection*{Algorithms and Methodology}
+Our algorithms and methodology is based on the latest machine-learning and data science techniques. 
+The Extreme deconvolution \href{http://www.sdss.org/dr14/data\_access/value-added-catalogs/?vac\_id=xdqso/}{`XDQSO' technique}\footnote{\href{https://github.com/xdqso/xdqso}{\tt github.com/xdqso/xdqso}}.
+
+\noindent
+\href{http://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/index.html}{\tt
+scikit-learn} is a Python module integrating classic machine learning
+algorithms in the tightly-knit scientific Python world (numpy, scipy,
+matplotlib). It aims to provide simple and efficient solutions to
+learning problems, accessible to everybody and reusable in various
+contexts: machine-learning as a versatile tool for science and
+engineering.  \href{https://github.com/astroML/sklearn\_tutorial}{{\tt
+github.com/astroML/sklearn\_tutorial}} and \href{https://github.com/jakevdp/PythonDataScienceHandbook}{{\tt github.com/jakevdp/PythonDataScienceHandbook}} have full details.
+
+%\href{https://github.com/astroML/sklearn\_tutorial}{{\tt https://github.com/astroML/sklearn\_tutorial}}\\
+%\href{https://github.com/jakevdp/PythonDataScienceHandbook}{{\tt https://github.com/astroML/sklearn\_tutorial}}\\
+%\href{https://github.com/jakevdp/sklearn\_tutorial}{{\tt https://github.com/jakevdp/sklearn\_tutorial}}\\
+
+\smallskip
+\smallskip
+\noindent
+One main ticket-item will be developing the {\it Event Broker Service}
+that will interface with the e.g. LSST databases, pipelines and
+transient stream. This is an already solved problem in many areas 
+of DS and infosec, but we require a custom build in order to access 
+the data streams necessary for our science goals. 
+
+
+\subsection*{Computing Requirements}
+As any half-decent data scientist will tell you, with the availability of 
+contemporary cloud based services (both commercial and non-for-profit), 
+the infrastructure is essentially already in place for all but the most demanding
+of compute tasks. The rate limiting factor, in the vast majority of endevours, is 
+the actual data access itself. 
+
+\smallskip
+\smallskip
+\noindent
+The facilites available to me at a institute (e.g. Cullen), university
+(e.g. \href{https://www.ed.ac.uk/information-services/research-support/research-computing/ecdf}{``Edinburgh
+Compute and Data Facility''} and at a national
+{\href{https://www.hartree.stfc.ac.uk/Pages/home.aspx}{The Hartree Centre} level will all be more than sufficient and utilized.
+The rate limiting factor will be how quickly and efficiently we can deploy our codes, 
+and analysis, i.e. person-power. 
+
+
+%\smallskip
+%\smallskip
+%\noindent
+%Why (the ERCs)??\\
+%World class science is the foundation of tomorrow’s technologies, jobs and wellbeing\\
+%Europe needs to develop, attract and retain research talent\\
+%Researchers need access to the best infrastructures\\
+
+%\section*{\textcolor{Cerulean}{Open Innovation, Open Science, Open to the World}}
+%\section*{Open Innovation, Open Science, Open to the World}
+\subsection*{Open Innovation, Open Science, Open to the World}
+Every part of the scientific method is becoming an open, collaborative and participative process. 
+The P.I. is an exceptionally strong, longtime and vocal supporter of ``Open Access''. 
+All my codes, data\footnote{where I am not breaking current data access agreements}, papers 
+and proposals can be found at \href{github.com/d80b2t}{{\tt github.com/d80b2t}}. 
+Indeed, this proposal itself is now at that location. 
+
+One of the major research outputs 
+of this ERC will be computer code. 
+As such, we are already working with the
+\href{The Software Sustainability Institute}{\tt https://www.software.ac.uk/}
+which was founded to support the UK’s research software community. 
+Our software well be developed using the FAIR ideology (Findable, Accessible, Interoperable, Reusable
+\footnote{Wilkinson, MD, Sci Data. 2016 Mar 15;3:160018. doi: 10.1038/sdata.2016.18.}
+) 
+and will be delivered in a manner which is fully inline 
+with ``Open Innovation, Open Science, Open to the World''. 
+
+
+
+\newpage
+\begin{center}
+\medskip
+ \medskip
+ {\large \bf References}
+    \vspace{-10pt}
+\end{center}
+\begin{multicols}{2}[]
+\noindent
+%\footnotesize
+%\scriptsize
+%\tiny
+\lbrack 1\rbrack Kormendy \& Ho, 2013, ARAA, 51, 511\\
+\lbrack 2\rbrack Kormendy,  2016, ASSL, 418, 431\\
+\lbrack 3\rbrack Alexander et al., 2012, NewAR, 56, 93\\
+\lbrack 4\rbrack King \& Pounds, 2015, ARAA, 53, 115 \\
+\lbrack 5\rbrack Heckman \& Best, 2014, ARAA, 52, 589\\
+\lbrack 6\rbrack Naab \& Ostriker, 2017, ARAA, 55, 59 \\
+\lbrack 7\rbrack Netzer, 2015, ARAA, 53,  365\\
+\lbrack 8\rbrack Padovani, 2017, A\&ARv, 25, 2\\
+%%
+\lbrack  9\rbrack Ata et al., 2017, arXiv1705.06373v2\\
+\lbrack10\rbrack Solsar et al., 2013, JCAP, 04, 026 \\
+\lbrack11\rbrack Busca et al.,  2013, A\&A, 552, 96 \\
+\lbrack12\rbrack Delubac et al.,  2015, A\&A, 574, 59 \\
+\lbrack13\rbrack Bautista et al., 2017, A\&A, 603, 12 \\
+\lbrack14\rbrack du Mas des Bourboux et al., 2017, arXiv1708.02225v3\\
+\lbrack15\rbrack Font-Riber et al., 2014, JCAP, 05, 027\\
+%%
+\lbrack16\rbrack Ross et al. 2015, MNRAS, 453, 3932\\
+\lbrack17\rbrack Wright et al., 2010, AJ, 140, 1868\\
+\lbrack18\rbrack Zakamska et al., 2016, MNRAS, 459, 3144\\
+\lbrack19\rbrack Hamann et al., 2017, MNRAS, 464, 3431\\
+%%
+\lbrack20\rbrack Timlin, Ross et al., 2016, ApJS, 225, 1\\
+\lbrack21\rbrack Timlin, Ross et al., 2017, ApJ, {\it in prep.}\\
+%%
+\lbrack22\rbrack LaMassa et al., 2015, ApJ, 800, 144\\
+\lbrack23\rbrack Runnoe et al., 2016, MNRAS, 455, 1691\\
+\lbrack24\rbrack Ruan et al, 2016, ApJ, 826, 188\\
+\lbrack25\rbrack MacLeod, Ross et al., 2016, MNRAS, 457, 389\\
+%%
+\lbrack26\rbrack Meisner et al., 2017, AJ, 153, 38 \\
+\lbrack27\rbrack Meisner et al., 2017, AJ, 154, 161 \\
+% Meisner  et al., 2017, arXiv1710.02526v1 \\
+\lbrack28\rbrack Ross et al., 2017, Nat.As., {\it in prep.} \\
+%%
+\lbrack29\rbrack Hopkins et al., 2006, ApJS, 163, 1\\
+%%
+\lbrack30\rbrack Schlegel et al., 2011,  arXiv:1106.1706v2 \\
+%
+\lbrack31\rbrack Ross et al., 2009, ApJ, 697, 1634 \\
+%%
+\lbrack32\rbrack Lombriser \& Taylor, 2016, JCAP, 03, 031 \\
+\lbrack33\rbrack Baker et al, 2017,  arXiv1710.06394v1 \\
+%%
+\lbrack34\rbrack Watson et al.,  2011, ApJ, 740, L49\\
+\lbrack35\rbrack King et al., 2014, MNRAS, 441, 3454\\
+\lbrack36\rbrack King et al., 2015, MNRAS, 453, 1701\\
+\lbrack37\rbrack Shen et al., 2015, ApJS, 216, 4\\
+%\lbrack37\rbrack The Pierre Auger Collaboration, 2017, Science, 357, 6357 \\
+\lbrack38\rbrack Hviding et al.,  2017, arXiv1711.01269v1 
+
+
+
+\end{multicols}
+
+
+
+\end{document}

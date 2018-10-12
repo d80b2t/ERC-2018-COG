@@ -1,0 +1,37 @@
+
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+
+\tcbset{tab1/.style={enhanced, fonttitle=\bfseries, fontupper=\normalsize\sffamily,
+colback=yellow!10!white,
+colframe=red!50!black,
+colbacktitle=Cerulean!40!white,
+coltitle=black,center title}
+%subtitle style={boxrule=0.4pt, colback=yellow!50!red!25!white} 
+}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+
+%\pagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2018-CoG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{{\it }}
+\rhead{Part B1}
+\setcounter{page}{1}
+\lfoot{{\it ERC-2018-CoG}}
+\rfoot{{\it Extended Synopsis}}
+\cfoot{{\it Page \thepage\ of 5}}
+%\rfoot{{\it FP7-PEOPLE-2013-IIF}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}

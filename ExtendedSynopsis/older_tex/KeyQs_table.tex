@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%  https://tex.stackexchange.com/questions/337820/mcq-long-table-using-tikz-tcolorbox-or-tabular
+%%  https://tex.stackexchange.com/questions/283419/color-in-a-multirow-cell-with-extra-vertical-space/283454
+%%  https://tex.stackexchange.com/questions/406033/how-to-fit-a-cell-of-a-table-to-a-figure-and-arrange-multiple-tables/406042
+%% 
+%% THIS (??)::
+%%     https://texblog.org/2014/05/19/coloring-multi-row-tables-in-latex/
+%%
+%%
+%%   https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{tcolorbox}[tab1, tabularx={X  X }, title=Outstanding Issues in Extragalactic Astrophysics, boxrule=1.25pt] 
+Key issue                                                                            &  Novel investigation       \\ 
+\hline \hline
+\multicolumn{2}{c}{{\sc The physics of accretion}} \\ 
+Investigating ``hot'' and ``cold'' mode accretion in the quasar population; 
+determining the rates and timescales, and characterising the Changing Look Quasar (CLQ) population.   &     
+Identifying and characterizing  all the CLQs in DESI and SDSS-V.  \\ 
+\hline
+Probing the inner parsec of the quasar central engine & 
+Rapid analysis and response on LSST quasar light curves. \\ 
+\hline
+%%
+\multicolumn{2}{c}{{\sc Obscured accretion and galaxy formation}} \\
+Establish the relative importance of major mergers, minor mergers, cold streams and secular evolution 
+have towards the growth of SMBHs across cosmic time. & 
+Deep imaging data from LSST combined with searching for post-starburst signatures 
+in DESI, SDSS-V, 4MOST spectra. NIRcam and MIRI imaging from JWST. \\ \hline
+Establishing the bolometric output and origin of IR emission, and  
+determine presence of extreme outflows in the $z\sim2-3$ quasar population. & 
+MIRI MRS spectroscopy with JWST.\\ \hline
+Establishing the range of SED parameter space the quasars occupy by a multi-wavelength multi-epoch ``truth table dataset'' & 
+Building ``The Stripe 82 Rosetta Stone'' (SpIES, SHELA, VICS82, S82X, HSC; repeat optical observations from SDSS, DES) \\ \hline
+%%
+Find the physical conditions under which SMBH grew at the epoch when most of the accretion and star formation in the Universe occurred ($z\sim1-4$) & Perform a complete census of AGN across $z\sim0-7$, focussing on $z=1-4$ using medium-deep multiwavelength datasets \\ \hline
+\multicolumn{2}{c}{{\sc Galaxy-scale feedback}}\\
+Establishing the theoretical impact of extreme outflows in the $z\sim2-3$ quasar population & 
+Hydro simulation modelling.  \\
+\hline
+Understand how the accretion disks around black holes launch winds and outflows and determine how much energy these carry. 
+Quantify the amount of ``Maintenance/Jet/Kinetic'' mode and ``Transition/Radiative/Wind'' mode feedback.
+& 
+Identifying and characterizing  all the CLQs in DESI and SDSS-V.  \\ 
+    %\end{tcbitemize}
+\end{tcolorbox}

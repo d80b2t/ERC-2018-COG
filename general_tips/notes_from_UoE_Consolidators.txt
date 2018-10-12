@@ -1,0 +1,79 @@
+
+
+
+  James Cheney
+=====================================================
+
+Thanks for getting in touch.  I'm happy to offer suggestions, however, since the different panels vary, this should probably be taken with a grain of salt.
+
+My experience was this: I submitted a proposal in 2014 which made it through to the first stage to interview, the interview was in late 2014.  Unfortunately it was not funded at that stage, but I was allowed to resubmit the following year, and I did that, making relatively minor adjustments to address reviewer complaints, and that one was funded.  The actual project then started in 2016.
+
+As you already mentioned, the evaluation criteria consider both the applicant's track record and the research proposal.  
+
+Regarding the applicant's track record, my impression is that the things requested in B1 are used mostly to evaluate that.  This includes the CV and funding track record, as well as a personal statement (I forget what it was called).  In my case I used this to describe my career path so far and what has been distinctive/unique about it, particularly to fill in gaps or tie together what was in the CV.  In general my understanding is they are looking for (a) independence and (b) evidence that you are already experienced both in doing great research and in managing nontrivial research projects (and therefore both poised to take advantage of the considerable resources of an ERC grant, as well as ready to manage a large project). Looking at your website and CV, I agree that you are probably in a good position in this regard.  (A h-index of >50 is very high by my field's standards, though maybe it is more common in astronomy.)
+
+So overall, it is important to "sell yourself" in this part.  The research synopsis in B1 is part of that: think of it not as a research proposal, but as a vision statement for your research topic and for you as a potential research leader.  Since the panel members who do the evaluation at the first stage only see part B1, and since they may not all be knowledgeable in your area (but again this may depend on the panel and how broad it is), it's important for it to be comprehensible to a broad audience, i.e. part of what they are evaluating at this stage is (in effect) your ability as a science communicator to a knowledgeable but non-expert audience.  This is true to some extent for any grant proposal but I'm highlighting it here because it's important to think of the B1 synopsis as a separate document and not just a summary of the full proposal.  The synopsis should discuss enough about the "what" you will do to convince readers that it makes sense and is doable, but is really about the "why" - why it is important / would be a major breakthrough and why you are uniquely well-positioned to deliver on it.
+
+In my first submission I focused more on the B1 part in order to hopefully get to the interview stage and the B2 proposal was more of a rush job (though since I had started from a previous, well-reviewed EPSRC proposal that just missed the funding cutoff, I already had a pretty clear idea in mind before I started the ERC version).  After the interview, they send you the external reviewer reports, which gives you a better idea what could be improved about the B2 part, and that was helpful in polishing it up.  In general, I would suggest thinking of your target audience for the B2 part as someone fairly expert in your area who would want to see some of the details or preliminary results.  The overall story about the ambition and high risk/high reward nature of the project should be echoed here from B1 but there is much more space for the gory details.
+
+A final observation (which may not be that helpful, given current events) is that my experience (first application; interview; rejection; resubmission; interview; award) seems to be fairly common - if you get to the interview stage (which is mostly based on your track record and ability to write something inspiring), but the reviewers pick your detailed proposal apart, the success rate on resubmission tends to be higher.  At this point it seems likely that the UK will stay part of H2020 until the end of the current EU budget cycle (and of course in academia we all hope the UK will choose to "buy in" to FP9, and the EU will consent to this), but nothing is really certain right now (which I assume is part of why you want to apply now!)
+
+Hope this is helpful; if you have specific questions please let me know, as it's difficult to give general advice.  I think most of what I said above is also echoed by the various ERC grant info sessions ERI organizes so sorry if this is a bit repetitive.
+
+Incidentally, I'm actually involved in a project relating to anomaly detection for security, so would be interested in finding out about your experience with this (also mentioned on your webpage)!
+
+--James
+
+
+
+
+    Mirella Lapata
+=====================================================
+
+On Jan 16, 2018, at 9:40 PM, Mirella Lapata <mlap@inf.ed.ac.uk> wrote:
+
+
+Hi Nicholas,
+
+I don't think I did anything in particular in B1/B2 that made my
+application stand out. I'd be happy to send you my proposal if you
+think it would help. I think the only piece of advice that I have is
+that they don't like seeing you deviate too much from your area of
+expertise. They like proposals which are natural extensions of your
+track record, build on your achievements rather than seeing you
+venture onto a new area. You proposal sounds very exciting! I'd be
+happy to read it and give you comments if you like.
+
+Best wishes,
+mirella
+
+--
+The University of Edinburgh is a charitable body, registered in
+Scotland, with registration number SC005336.
+
+
+
+  Tetsuya Komabayashi
+=====================================================
+
+On Jan 15, 2018, at 10:18 PM, KOMABAYASHI Tetsuya <Tetsuya.Komabayashi@ed.ac.uk> wrote:
+
+Dear Nic,
+
+Thank you for your mail.
+I'm happy to help you out about this, although I only had one-time experience, so I'm not really sure what is really important.
+
+>Looking back, is there anything you think 
+>you did in particular, especially for the Part B1/B2 forms that you feel made a difference?
+
+Both should be self-contained and standing alone.
+
+>My current plan would be to ask for ~75-90% of my salary
+
+This sounds good. You should put a number higher than 75%.
+Also, you should say "why me?" and "why now?".
+
+Hope this helps.
+
+Best,
+Tetsu

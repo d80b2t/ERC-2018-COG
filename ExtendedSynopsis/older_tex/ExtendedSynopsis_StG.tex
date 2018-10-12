@@ -1,0 +1,767 @@
+%\documentclass[11pt,epsf]{article}
+\documentclass[oneside, a4paper, onecolumn, 11pt]{article}
+
+\usepackage{graphicx, amssymb, multicol, amsmath}
+\usepackage{fancyhdr, hyperref, sidecap}
+\usepackage[left=2.05cm,top=2.05cm,bottom=1.55cm,right=2.05cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}	        %%  bibliography style
+\setlength{\bibsep}{0.0pt}
+\usepackage{eurosym}
+\usepackage{enumitem}
+\usepackage{nopageno}
+\usepackage{fancyhdr}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+
+%\pagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2015-StG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{{\it MIQSOs}}
+\rhead{Part B1.a}
+\setcounter{page}{1}
+\lfoot{{\it ERC-2015-StG}}
+\rfoot{{\it Extended Synopsis}}
+\cfoot{{\it Page \thepage\ of 5}}
+%\rfoot{{\it FP7-PEOPLE-2013-IIF}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+
+\begin{document}
+
+%\vspace{-24pt} 
+\begin{center}
+%  {\Large \bf Connecting quasars with galaxy formation via\\}
+  {\Large \bf MIQSOs: Connecting Quasars with galaxy formation via\\}
+\vspace{4pt} 
+  {\Large \bf Mid-infrared observations and Next Generation Telescopes}
+\end{center}
+
+\begin{quotation}
+\noindent
+{\it 
+In the local Universe, there is a link between the key properties of
+massive galaxies, such as bulge mass, and their central supermassive
+black holes. This has led to the proposal that the supermassive black
+hole, when accreting, has an influence on its host galaxy by the means
+of some regulatory ``feedback'' mechanism(s). However, the details of
+the physical processes involved in active galactic nuclei (AGN)
+feedback are still disputed and, moreover, direct observational
+evidence for AGN feedback in the early universe is heavily conspicuous
+by its absence. As such, a major source of uncertainty in our current
+understanding of galaxy evolution is how supermassive black holes
+influence, and potentially regulate, their host galaxies.
+
+\smallskip
+\smallskip
+\noindent
+The primary aim of this proposal is to elucidate the nature of quasar
+activity and AGN feedback, particularly at high-redshift. Using new
+optical and mid-infrared datasets, that the P.I. has unique access to,
+the accretion history of the Universe at redshifts $z=2-7$ will be established.  
+These measurements will constrain the energetics of black hole mass build-up, 
+%including obscured systems, 
+will test feedback models at high-$z$ and lead to a deeper
+understanding of the physical processes involved in galaxy 
+formation and evolution.
+}
+\end{quotation}
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline{Introduction:}}
+The two key sources of energy in a galaxy are nuclear fusion in stars,
+and the energy liberated in a strong gravitational field, e.g. by
+accretion onto a supermassive black hole (SMBH).
+%
+The rate of stellar and gravitational energy
+production are observed to have evolved in a similar fashion, with
+both the cosmic star-formation rate density and luminous AGN %i.e., quasar
+activity peaking around 3 Gyr after the Big Bang at $z\sim2$ ([1], [2]).
+%%
+Furthermore, the link between massive galaxies and the central SMBHs
+that seem ubiquitous in them is now thought to be vital to the
+understanding of galaxy formation and evolution ([3], [4]).
+%%
+However, aside from knowing that both processes require a fuel supply, 
+the details of the physical processes that potentially
+connect stars and black holes in galaxies are not well understood.
+%%
+As such, huge observational and theoretical effort has been invested in
+trying to measure and understand the physics involved in these
+enigmatic systems.
+
+
+
+\smallskip
+\smallskip
+\noindent 
+%{\bf \underline{Recent Research: Quasar investigations with the BOSS}}
+{\bf \underline{SDSS, BOSS and the Quasar Luminosity Function:}}
+A key observational resource in making progress in the investigation 
+of supermassive black hole activity is very wide-field quasar surveys.
+Quasars are the subset of the most luminous AGN and
+%%
+the state-of-the-art in quasar surveys is the Sloan Digital Sky Survey
+(SDSS; [5]) and the Baryon Oscillation Spectroscopic Survey (BOSS;
+[6], [7]). Together these provide a powerful database of over 400,000
+spectroscopically confirmed quasars waiting to be fully exploited.
+%%
+My leading position within the SDSS-III: BOSS project has allowed me
+to create, and exploit, the datasets needed for my science goals. For
+instance, I was the scientific lead for the quasar target selection
+([8]; Fig.~1, {\it left}) needed to find a high density of $z>2$ quasars, 
+vital for the first measurement of baryon acoustic oscillations in the 
+Lyman-$\alpha$ Forest ([9], [10]). 
+
+
+\smallskip
+\smallskip
+\noindent 
+I also led the analysis for the BOSS Data Release Nine (DR9) quasar
+luminosity function (QLF, [2]; Fig.~1, {\it center}). 
+%%
+This is a key measurement since it uncovered the ``break luminosity''
+($L^{*}$) in the double-power law form of the $2<z<4$ QLF for the
+first time. This is important since the majority of black hole mass
+build-up happens for AGN at the break luminosity, and this epoch is
+where quasar activity peaks.
+%%
+I showed that `pure luminosity evolution' is still an adequate
+description of the QLF at $z\lesssim2$ - only changing to a
+`luminosity dependent' density evolution at $z\gtrsim2$. What drives
+this evolution, the directly related fueling mechanism (e.g., mergers
+vs. secular processes) and the feedback physics invoked, are key
+outstanding issues and will be tackled by this proposal.
+
+
+\begin{figure}[h]
+  \begin{center}
+    % \hspace{1.5cm}
+    % trim option's parameter order: left bottom right top
+    \includegraphics[trim = 0mm 0mm -16mm 0mm, clip, height=6.00cm,width=18.0cm]
+    {3_panels_Nofz_QLF_WISE.pdf}
+    \vspace{-20pt}
+    \caption{%\small
+      \footnotesize
+      % \scriptsize
+      % \tiny
+      {\it (Left)} 
+      Redshift distributions of quasars from SDSS (black) and 
+      BOSS (red, [8]). 
+      {\it (Centre)}  
+      New measurement of the optical QLF from [2] extending the SDSS DR3
+      results from [11] and finding a clear break in the QLF at all
+      redshifts up to $z=3.5$.
+      {\it (Right)} 
+      A WISE 3.4, 4.6 and 12$\mu {\rm m}$ image of a $z=2.59$ 
+      extremely red quasar, selected on its $r-[22]$ colour, 
+      discovered by [24].
+      This object
+      has a 22$\mu$m flux indicative of $L_{IR} \gtrsim 10^{14} L_{\odot}$, 
+      and one interpretation could be we are witnessing the
+      ``birth'' of an unobscured quasar.  }
+    \vspace{-14pt}
+    \label{figtest-fig}
+  \end{center}
+\end{figure}
+\normalsize
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {A full census of the Quasar Population:}}
+A pillar of our current understanding of the buildup of SMBHs over
+cosmic time is the ``So{\l}tan argument'' ([12]) which relates the
+integrated quasar luminosity density to the mass density of relic
+black holes in the local Universe.  However, it is \emph{crucial} that
+this census of quasar emission includes contributions from obscured
+quasars, which are accreting SMBHs where gas and dust block our
+line-of-sight to the central engine.
+%%
+This obscuration could arise from a torus (e.g., [13], [14]) with
+unobscured and obscured quasars representing different viewing angles,
+or, represent different phases of quasar evolution ([15], [16], [17]),
+with all quasars passing through an obscured phase before outflows
+expel the obscuring material. Observationally, obscured AGN are 
+{\it at least as common} as unobscured AGN in the local Universe. If
+quasars at high-$z$ are similarly obscured, our understanding of SMBH
+growth needs to be substantially revised.
+
+\smallskip
+\smallskip
+\noindent
+{\it Critically, new estimates of the local black hole mass density
+([18], [19], [20]) suggest it is up to $\sim$5 times higher than
+previously determined, which requires a corresponding increase
+in the amount of accretion. This can be explained by either
+super-Eddington accretion ([21]) and/or a population of heavily
+obscured AGN ([22]). Thus accounting for this ``missing accretion'',
+and the energetics associated with it, is an outstanding issue and a
+key ingredient required for any AGN feedback model.  }
+
+\smallskip
+\smallskip
+\noindent 
+Furthermore, I am currently leading the investigations into a new
+class of object, the ``extremely red quasars'' that have optical
+spectroscopy from SDSS/BOSS, and $r-[22\mu{\rm m}]>14$ colours 
+(i.e., $F_\nu({\rm 22\mu m})/F_\nu(r) \gtrsim 1000$)
+from the Wide-field Infrared Survey Explorer (WISE; [23], [24]) satellite
+(Fig.~1, {\it right}).
+%%
+The physical nature of these objects is currently uncertain, but new
+infrared spectroscopy shows these objects may have interesting
+gas kinematics and very strong outflows, suggesting this is a ``transition
+population'', with the quasar `breaking out' of its obscured phase. 
+
+\smallskip
+\smallskip
+\noindent
+{\it 
+Due to the dust reprocessing of UV/optical photons from an active AGN, 
+mid-infrared observations are the key to identifying even the most
+heavily obscured quasars, e.g., [25-31]. 
+%%
+Thus, the combination of optical spectroscopy and mid-IR photometry over
+large areas of the sky is ideally suited to detecting high-redshift
+luminous AGN as well as highly obscured AGN, ready to complete the 
+quasar census.
+}
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {AGN Feedback at High-$\pmb{z}$:}}
+Modern galaxy formation theory strongly suggests that the active,
+i.e., quasar, phase of black hole activity has a controlling effect on
+shaping the global properties of the host galaxies. As such, ``AGN
+feedback'' (kinetic and radiative energy impacting galaxy-scale
+gas/dust) is one of the hottest topics in galaxy evolution today and
+has become a routinely invoked ingredient for galaxy formation models.
+%%
+The epoch around $z\sim2$ is particularly important for quasar
+feedback studies because it marks the peak of both star formation and
+quasar activity in the universe, and thus high-$z$, luminous
+(obscured) quasars are the most likely sites where powerful feedback
+takes place. This feedback can drive strong winds that clear the
+galaxy of gas, shutting-off star formation ([17], [32]). 
+%%
+However, direct observations of quasars exhibiting outflows in situ 
+are challenging and lacking (especially at high redshift), and as a result, 
+the physical details of these processes are poorly known.
+
+\smallskip
+\smallskip
+\noindent
+There is however, another avenue that can bring insight, and that is
+the demographic study of the environments of the quasars, i.e. via a
+measure of their clustering. Different AGN feedback models, in
+particular from [33], predict similar clustering behaviour at $z < 2$ where
+observations indicate that quasars with a range of BH masses and
+accretion rates must be hosted by similar, moderately massive
+structures. However, the feedback models diverge at higher redshift
+since quasars with lower BH masses and/or accretion rates are not
+expected to inhabit the extremely massive structures occupied by SDSS
+quasars (which represent the most massive $z > 3$ BHs accreting at
+Eddington, [34]). To break this degeneracy we must probe fainter than $L^{*}$ 
+at beyond $z=3$.
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf  {\large Key Objectives: }}
+This proposal aims to address the following key questions:
+\begin{enumerate}
+    \item{Do we have a complete census of the accreting quasar population across the redshift range  $z=2-7$? }
+    \item{How much accretion and black hole mass build up occurs in the obscured phase, and how does this influence 
+    the host galaxy?}
+    \item{At $z>2$, what environments are obscured and unobscured quasars found in?}
+    \item{Are the ``Extremely Red Quasars'' an important transition population?}
+\end{enumerate}
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf  {\Large Methodology}}
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {\large Key Dataset 1: SDSS-III BOSS}}
+With the full 10,000 deg$^{2}$ of spectroscopy obtained, the
+observations for SDSS-III: BOSS were completed in mid-2014. The final
+BOSS quasar sample contains just under 300,000 quasars down to a
+magnitude limit of $g\approx22.0$ of which 190,000 have $2.0<z<3.5$.
+I have had significant input and responsibility helping prepare the
+final BOSS quasar catalogues, and as such, have a very deep knowledge of
+this sample.
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {\large Key Dataset 2: SpIES}}
+I am the lead co-PI of the {\it Spitzer}-IRAC Equatorial Survey
+\href{http://ssc.spitzer.caltech.edu/warmmission/scheduling/approvedprograms/go9/90045.txt}{(SpIES)},
+which is a new deep 3.6$\mu$m and 4.5$\mu$m imaging survey designed to
+discover obscured and unobscured quasars across 100 deg$^{2}$ of the
+SDSS Stripe 82 field.  SpIES is an Exploration Science program that is
+the largest areal survey ever undertaken by {\it Spitzer}, and its
+scientific goals are to study the respective QLFs and clustering
+measurements to $z\sim4$, and potentially discover a suite of very
+high redshift quasars.  To make significant advancement in these
+areas, SpIES will probe $\sim$1 dex fainter than $L^{*}$ at $z\sim3$
+and as faint as $L^{*}$ at $z\sim4$. SpIES data taking has just
+finished (late 2014) and I am leading the production of 
+the final catalogues, which are due to appear in 2015, 
+ready for science exploitation. 
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {\large Key Dataset 3: WISE}}
+The WISE satellite has been revived for a new 3-year mission that
+started in late 2013.  The new survey uses the shorter 3.4 and
+4.6$\mu$m bands and a [3.4]-[4.6] colour selection has been proven to
+be highly efficient and complete for selecting AGN ([35], [36]) up to
+very high redshift ($z\sim6-7$; [37]). A new public WISE data
+release, including the new data is scheduled for $\sim$mid-2015.
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {\large Key Dataset 4: SDSS-IV}}
+The current 2.5m Sloan telescope and BOSS spectrograph system will
+remain state-of-the-art for at least for the mid-term.  As such, the
+immediate future of spectroscopic surveys is the fourth installment of
+the Sloan Digital Sky Survey, \href{www.sdss.org}{SDSS-IV}.
+
+\smallskip
+\smallskip
+{\bf {SDSS-IV: eBOSS:}}  
+The Extended Baryon Oscillation Spectroscopic Survey (eBOSS) is 
+addressing the issue of the cosmological expansion in unexplored redshift regimes
+--- including the epoch of transition from deceleration to
+acceleration. To do so, eBOSS will obtain spectra for nearly 700,000 
+quasars across the redshift range $1.0<z<3.5$, over a footprint of
+7,500 deg$^2$. A new sample of $g=22.0$ ``mid-redshift''
+quasars (630,000 objects in the range $1 < z < 2.2$), will complement the
+bright SDSS in luminosity range, and the SDSS-III: BOSS $z>2.2$
+``high-redshift'' sample in $z$-range. The eBOSS survey started in September
+2014 for a 6 year duration.
+
+\smallskip
+\smallskip
+
+{\bf SDSS-IV: TDSS:}  
+The Time Domain Spectroscopic Survey (TDSS) is another SDSS-IV survey
+and will select time-variable targets for spectroscopic
+follow-up. These targets will include quasars and several classes of
+variable stars, either of which may well reveal previously
+unidentified phenomena. 
+
+
+\smallskip
+\smallskip
+\noindent
+I performed `Key Project' science investigations with SDSS
+([38]) and was the Chair of the SDSS-III Quasar Working
+Group. Critically, however, by returning to Europe, I am no longer
+part of SDSS-IV and thus currently not leading new analysis in
+SDSS-IV. {\it To build on my previous investment of effort and expertise,
+and to restore collaboration and data access, collaboration
+``buy-in'' is required. 
+Part of this grant request is for this SDSS-IV `buy-in', which allows
+data rights and collaboration access to the P.I. \textbf{and their associated PDRAs
+and PhD students}.}
+
+   
+\medskip
+\medskip
+\medskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%
+%%     T H E      P R O J E C T S
+%% 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\smallskip
+\smallskip
+\noindent
+{\bf  \underline{\large MIQSOs Project 1: A full census of Quasars at $z=2-7$} (3 year PDRA project)}
+
+\smallskip
+\noindent
+This project will leverage the optical and new  mid-infrared datasets to make 
+a complete census of the $z=2-7$ quasar population in order to accurately 
+account for supermassive black hole mass build-up. 
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 1:}
+Exploitation of the SDSS+BOSS optical spectroscopy, and the SpIES+WISE
+MIR data in order to make a mid-infrared quasar luminosity function
+(QLF) measurement. The QLF is a convolution of the: {\it (i)} black
+hole mass function; {\it (ii)} the efficiency of matter accretion and
+{\it (iii)} obscuration fraction, all of which depend (in a poorly
+understood way) on luminosity and redshift. The current
+state-of-the-art optical QLF measurements at high-redshift,
+$z\gtrsim2$, where model discrimination power is best, are hampered
+by not knowing the obscuration fraction ([2]). [39] presents the
+current best measurement of the mid-infrared QLF, but is hampered at
+high-$z$ by low number statistics, with only $\sim$100 quasars at
+$z\geq3$. Our new deep and wide {\it Spitzer} survey, SpIES, will observe
+$\gtrsim$25,000 unobscured and obscured quasars, with  $\gtrsim$1,200 at
+$z\geq3$.
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 2:}
+A second science aim will be the measurement of the unobscured QLF,
+down to $g=22$ and up to $z\approx5$.  eBOSS and TDSS, both include
+quasars as a major component, but select them very differently,
+yielding the largest and most complete spectroscopic survey of quasars
+ever created.  The SDSS-IV quasar samples will match the BOSS quasars
+in luminosity range, but now at redshifts $z<2$. {\it Thus, with SDSS-I/II, SDSS-III BOSS
+and SDSS-IV:eBOSS+TDSS, the luminosity-redshift $(L - z)$ plane for all quasar
+is fully sampled out to $z\approx5$ for the first time. }
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 3:}
+Will be to place these new QLF measurements in context of AGN feedback
+models, including using the prescriptions found in the latest suite of
+hydrodynamical cosmological simulations, e.g. Illustris ([40]) and
+EAGLE ([41]).
+
+\smallskip
+\smallskip
+\noindent
+{\bf Project feasibility, Timeline and role of the P.I.}
+Data from SDSS+BOSS+SpIES+WISE are all in-hand and the necessary catalogues will 
+be produce by the end of 2015/early 2016, well timed for the PDRA to 
+start immediately on the SDSS+SpIES+WISE QLF work. 
+A cosmologically interesting dataset from SDSS-IV eBOSS+TDSS 
+will be in hand by mid-2016. The P.I. is actively involved in 
+producing these quasar catalogues, and will support the PDRA in achieving the science goals. 
+
+\medskip
+\medskip
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf  \underline{\large MIQSOs Project 2: The Environments of $z>3$ Quasars} (4 year PhD project)}
+
+\smallskip
+\noindent
+This project will again leverage the optical and new mid-infrared
+datasets to make the first clustering measurements of faint $z>3$
+quasars. These results will be directly used to constrain AGN feedback
+models.
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 1:}
+Will be to make the first ever measurement of the clustering of the faint $z>3$ MIR-selected quasar population. 
+[33] contrasts the behaviour of quasar clustering strength for 3
+flavours of feedback model as a function of survey depth and redshift,
+demonstrating that they are degenerate in a survey like SDSS due to a
+lack of dynamic range in quasar luminosity. However, [33] also note that
+extending the depth of quasar surveys to $i=23$ (1-2 mags deeper than
+BOSS) will move further down the QLF, increasing the quasar density
+enough to break the degeneracy between models at high-$z$.
+%%
+This measurement will be possible with the new SpIES dataset. 
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 2:}
+Recent measurements at $z\sim1.5$ ([42], [43]) have claimed that the
+obscured quasar population are at least as strongly clustered as the
+unobscured (optically selected) quasars. This result has dramatic
+consequences if confirmed, placing tight constraints on the sequence
+of evolutionary stages for luminous AGN. Using WISE to perform a
+similar selection to these studies, BOSS has targeted $\sim$30,000
+mid-IR selected objects, a key goal of which is to perform a
+clustering measurements with {\it spectroscopic redshifts} (a key
+limitation to [35], [36]) and to test this intriguing result at high
+significance and place the quasars in a broader evolutionary context.
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 3:}
+The eBOSS clustering sample is $\approx$20$\times$ larger than the
+current best measurement from SDSS in the same redshift range
+([30]). This will lead to the first sub-percent constraint on quasar
+bias at $z\sim1.5$, or, match SDSS-level constraints in 20 bins of
+$dz=0.1$ and measure bias evolution.
+%%
+This dataset, with its range in luminosity at all redshifts will
+provide the first meaningful clustering constraints on
+luminosity-dependent quasar clustering and thus quasar fueling [44].  It
+will also provide a factor of $\sim$3 improvement in measurement of
+clustering amplitude in the range $40 < r < 100$ kpc/h, providing the
+first $\sim$10\% level constraint on fraction of quasars in satellite
+halos.
+
+\smallskip
+\smallskip
+\noindent
+{\bf Project feasibility, Timeline and role of the PI.}
+Again, the key data are in hand, and will be ready for the PhD student to
+immediately exploit. The P.I. is the lead on the BOSS+WISE quasar spectroscopic programme.
+The P.I. has experience in writing clustering code and the relevant
+data analysis, but the student would be encouraged to further develop the
+analysis techniques. 
+%%Depending on progress, a fourth science goal in the final part of the PhD is possible and could range from detailed follow-up of interesting MIR sources (e.g. the most obscured quasars) to deeper investigations using the SDSS-IV TDSS variable quasars sample.  
+The P.I would naturally play an active supervisory role in all these research activities.
+
+\medskip
+\medskip
+
+\smallskip
+\smallskip
+\noindent
+{\bf \underline {\large MIQSOs Project 3:  Early Science with {\it The James Webb Space Telescope}} (P.I. Led Project)}
+
+\smallskip
+\noindent
+The {\it James Webb Space Telescope} ({\it JWST}) is a 6.5-meter
+infrared telescope that will initiate and enable completely
+transformative science. Due to its collecting area and wavelength
+coverage, in many ways, {\it JWST} is not ``{\it Hubble's}
+successor'', but more like a ``Super-{\it Spitzer}'' and a
+``Mega-WISE'' combined in one.  This project is designed to ramp up to
+the launch of the {\it James Webb Space Telescope} and plan for the Early
+Release Science (ERS) program, a suite of new observations that will
+become immediately public very early in {\it JWST} observing.
+
+\smallskip
+\smallskip
+\noindent 
+{\bf Science Goal 1:}
+The discovery of the extremely red quasars ([24]) seems to provide a
+key observational clue to the ``major merger'' evolutionary theory for
+quasar activity ([17]). 
+%%
+The P.I. is a lead Co-I in a small team of 9 members that is 
+acquiring time on 8-10m class telescopes in order to understand these
+potentially really important objects. So far we have data from VLT XShooter, 
+and have recently been granted time in 2015A and 2015B on Keck
+One (LRIS spectropolarimetry), Gemini North (GNIRS spectroscopy) and
+the LBT (LUCI+MODS optical/NIR spectroscopy).
+{\it The P.I. will lead these joint data analyses (and if necessary further follow-up proposals) 
+and the subsequent interpretation, modeling and paper production. }
+
+
+\smallskip
+\smallskip
+\noindent
+{\bf Science Goal 2:}
+There will be an Early Release Science (ERS) program, that will take
+maximal advantage of {\it JWST's} new and uniquely powerful
+capabilities immediately upon commencing science operations. 
+One natural ERS case for {\it JWST} is the
+investigation of obscured and very red quasars, using the MIRI
+spectrograph, and by utilizing all my experience with mid-infrared
+datasets, surveys and object discovery, I am positioning myself to
+carry out these investigations.  
+{\it A call to the community to define ERS science will be issued later in 
+2015, and I will become a lead European Investigator and responsible for this
+revolutionary mission}.  
+The {\it JWST} is scheduled for
+launch in late 2018, which due to the project's scheduled reserve is
+now very feasible.  Regardless, the ERS Science case will be written
+over the course of the ERC 2015 Starter Grant, and even a years delay
+in launch sees the non-proprietary ERS data delivered before the end
+of the grant.
+
+%\smallskip
+%\smallskip
+%\noindent
+%{\bf Project feasibility, Timeline and role of the PI.}
+%All the necessary data for immediate red quasar follo
+%Nunc semper quam et leo interdum vulputate eu quis magna. Sed nec arcu at orci egestas convallis. Aenean quam velit, aliquam vitae viverra in, elementum vel elit. Nunc suscipit aliquet sapien a suscipit. Cras nulla ipsum, posuere eu fringilla sit amet, dapibus ultricies nulla. Nullam eu augue id purus mollis dignissim sed et libero. Phasellus eget justo sed neque pellentesque egestas nec id arcu. Donec facilisis pulvinar sapien et fringilla.
+
+\smallskip
+\smallskip
+\noindent
+{\it %In summary, 
+I request funding for the full 5 year period for the ERC Starter Grant. This includes support for the P.I. at 100\% for 5 years, a PDRA at 100\% for 3 years, and a PhD student at 100\% for 4 years. I also request `buy-in' to the SDSS-IV project 
+which allows data rights and collaboration access for the P.I., the PDRA and PhD student. Additional project funds are requested for computing resources and travel for conferences, observing runs and collaboration meetings.}
+
+\vspace{-10pt}
+
+\begin{center}
+\medskip
+ \medskip
+ {\large \bf References}
+    \vspace{-10pt}
+\end{center}
+\begin{multicols}{3}[]
+\noindent
+%\footnotesize
+\scriptsize
+%\tiny
+\lbrack1\rbrack Madau et al., 2014, ARAA, 52, 415\\
+\lbrack2\rbrack Ross et al., 2013, ApJ, 773, 14, \\
+\lbrack3\rbrack Fabian, 2012, ARAA, 50, 455 \\
+\lbrack4\rbrack Alexander et al., 2012, NewAR, 56, 93\\
+\lbrack5\rbrack Schneider et al. 2010, AJ, 139, 2360\\
+\lbrack6\rbrack Dawson et al. 2013, AJ, 145, 10\\
+\lbrack7\rbrack P\^{a}ris et al., 2015, A\&A, in prep. \\
+\lbrack8\rbrack Ross et al., 2012, ApJS, 199, 3\\
+\lbrack9\rbrack Busca et al. 2013, A\&A, 522A, 96 \\
+\lbrack10\rbrack Slosar et al., 2013, JCAP, 04, 026 \\
+\lbrack11\rbrack Richards et al., 2006, ApJ, 131, 2766\\
+%%
+\lbrack12\rbrack Soltan, 1982, MNRAS, 200, 15\\
+\lbrack13\rbrack Antonucci, 1993, ARA\&A, 31, 473\\
+\lbrack14\rbrack Urry\&Padovani, 1995, PASP, 107, 803\\
+\lbrack15\rbrack Sanders et al., 1988, ApJ, 325, 74\\
+\lbrack16\rbrack Canalizo et al., 2001, ApJ, 555, 719 \\
+\lbrack17\rbrack Hopkins et al., 2006, ApJS, 163, 1\\
+%%
+\lbrack18\rbrack Kormendy\&Ho, 2013, ARAA, 51, 511\\
+\lbrack19\rbrack Graham \& Scott 2013, ApJ, 764, 151 \\
+\lbrack20\rbrack Graham\& Scott, 2015, ApJ, 798, 54 \\
+\lbrack21\rbrack Novak, 2013, arXiv:1310.3833v1\\
+\lbrack22\rbrack Comastri et al., arXiv:1501.03620v1\\
+%%
+\lbrack23\rbrack Wright et al., 2010, AJ, 140, 1868\\
+\lbrack24\rbrack Ross et al. 2014, arXv:1405.1047v1\\
+%%
+\lbrack25\rbrack Alexander et al., 2008, ApJ, 687, 835 \\
+\lbrack26\rbrack Lacy et al., 2004, ApJS, 154, 166\\
+\lbrack27\rbrack Stern et al., 2005; ApJ, 631, 163 \\
+\lbrack28\rbrack Martinez-Sansigre et al. 2006, MNRAS, 370, 1479\\
+\lbrack29\rbrack Richards et al. 2009, AJ, 137, 3884  \\
+\lbrack30\rbrack Donley et al. 2012, ApJ, 748, 142\\
+\lbrack31\rbrack Richards et al., 2015, ApJS, in prep.\\
+%%
+\lbrack32\rbrack Hopkins et al. 2008, ApJS, 175, 356\\
+\lbrack33\rbrack Hopkins et al., 2007, ApJ, 662, 110 \\
+%%
+\lbrack34\rbrack Shen et al., 2007, AJ, 133, 2222 \\
+\lbrack35\rbrack Stern et al., 2012, ApJ, 753, 30\\
+\lbrack36\rbrack Assef et al., 2013, ApJ, 772, 26\\
+\lbrack37\rbrack Blain et al., 2013, ApJ, 778, 113\\
+%%
+\lbrack38\rbrack Ross et al., 2009, ApJ, 697, 1634 \\
+\lbrack39\rbrack Assef  et al., 2011, ApJ, 728, 56\\
+%%
+\lbrack40\rbrack Vogelsberger et al., 2014, MNRAS, 444, 1518\\
+\lbrack41\rbrack Crain et al. 2015, arXiv:1501.01311v1\\
+%%
+\lbrack42\rbrack Donoso et al., 2014, ApJ, 789, 44\\
+\lbrack43\rbrack DiPompeo et al. 2015, MNRAS, 446, 3492\\
+\lbrack44\rbrack Lidz et al., 2006, ApJ, 641, 41 \\
+
+
+
+%\lbrack33\rbrack Font-Ribera et al., 2014, JCAP, 05, 027 \\
+%\lbrack34\rbrack LSST Collaboration, arXiv0912.0201v1\\
+%\lbrack35\rbrack Schlegel et al., 2011arXiv1106.1706v1\\
+%\lbrack36\rbrack www.gmto.org/Resources/GMT-SCI-REF-00482\_2\_GMT\_Science\_Book.pdf\\
+%\lbrack37\rbrack Lee et al., 2014, ApJ, 795, L12\\
+%\lbrack38\rbrack Ivezi{\'c}~et~al.~2007, AJ, 134 ,973\\
+%\lbrack38\rbrack MacLeod et al. 2011, ApJ, 728, 26\\
+%\lbrack39\rbrack Filiz Ak et al., 2012, ApJ, 757, 114\\
+%\lbrack40\rbrack Filiz Ak et al., 2013, ApJ, 777, 168\\
+%\lbrack41\rbrack Filiz Ak et al., 2014, ApJ, 791, 88\\
+%\lbrack32\rbrack Assef  et al., 2014, arXiv1408.1092v1\\
+%\lbrack11\rbrack Anderson et al., 2014, MNRAS, 441, 24\\
+%\lbrack12\rbrack Aubourg et al., 2014, arXiv:1411.1074v2\\
+%\lbrack13\rbrack Beutler et al., 2014, MNRAS, 443, 1065\\
+%\lbrack14\rbrack Beutler et al., 2014, MNRAS, 444, 3501\\
+%\lbrack15\rbrack Palanque-Delabrouille et al., arXiv:1410.7244v1\\
+%\lbrack16\rbrack Pieri et al., 2014, MNRAS, 441, 1718\\
+%\lbrack17\rbrack Karagiannis, Shanks, Ross,  2014, MNRAS,  441, 486\\
+%\lbrack18\rbrack Wang, Viero, Ross  et al., arXiv1406.7181v1\\
+%\lbrack11\rbrack P\^{a}ris et al., 2013, A\&A, in prep. \\
+%\lbrack25\rbrack White et al., 2012, MNRAS, 424, 933 \\
+%\lbrack26\rbrack Geach et al., 2013, arXiv:1307.1706v1\\
+%\lbrack27\rbrack Donoso et al., 2013, arXiv:1309.2277v1 \\
+%\lbrack28\rbrack Finley et al., 2013, A\&A,  558A, 111\\
+
+%%Anderson et al. 2012, arXiv:1203.6594v1 \\
+%%Banerji et al. 2012, arXiv:1210.6668v1\\
+%Busca et al. 2012, arXiv: 1211.2616v1 \\
+%Blake et al. 2011, MNRAS, 415, 2892 \\
+%Cattaneo et al., 2009, Nature, 460, 213 \\
+%Croom et al., 2005, MNRAS, 356, 415 \\
+%Coppin et al., 2008, MNRAS, 389, 45 \\
+%Croom et al., 2009, MNRAS, 399, 1755 \\
+%da \^{A}ngela et al., 2008, MNRAS, 383, 565 \\
+%Dawson et al.,  2012, arXiv1208.0022v1 \\ 
+%%Dunkley et al., 2011, ApJ, 739, 52 \\
+%Eisenstein et al., 2011,  AJ, 142, 72 \\
+%Friemann et al. 2008, ARAA, 46, 385 \\
+%Fiore et al.,  2011, arXiv1109.2888v1 \\
+%Filiz Ak et al. 2012,  ApJ, 757, 114\\
+%Haehnelt et al., 1994, MNRAS, 269, 199\\
+%Hobbs et al., 2010, CQGra, 27h4013 \\
+%Hopkins et al., 2007, ApJ, 654, 731 \\
+%Lang et al., 2009, AJ, 137, 4400 \\
+%Li et al, 2011, ApJ, 742, 33 \\
+%Lidz et al. 2006, ApJ, 641, 41 \\
+%Liu et al., 2011,  ApJ, 737, 101 \\
+%Lonsdale et al., 2003, PASP, 115, 897\\
+%Mauduit et al., 2012, PASP, 124. 714\\
+%Palanque-Delabrouille~et~al., 2012, arXiv1209.3968v1 \\
+%Palanque-Delabrouille~2012, arXiv1209.3968v1 \\
+%P\^{a}ris, et al. 2012,  arXiv1210.5166v1\\
+%Peth et al. 2011, AJ, 141, 105 \\
+%Richards et al, 2006, AJ, 131, 2766 \\
+%Ross et al., 2007, MNRAS, 381, 573  \\
+%Ross et al., 2008, MNRAS, 387, 1323 \\
+%Ross et al., 2009, ApJ, 697, 1634 \\
+%Ross et al., 2012b, arXiv:1210.6389v1 \\
+%Ross et al., 2012c, ApJL, in prep.\\
+%Sanders et al. 2007, ApJS, 172, 86 \\ 
+%Sawangwit~et~al.~2011,~arXiv:1108.1198v2 \\
+%Schlegel et al., 2009, arXiv:0902.4680v1 \\
+%Schneider et al., 2007,  AJ, 134, 102 \\
+%Schneider et al., 2010,  AJ, 139, 2360 \\
+%Seljak et al. 2009,  PhRvL, 091303\\
+%Sesana et al., 2008, MNRAS, 390, 192 \\
+%Simmons et al., 2011, ApJ, 734, 121 \\
+%Shen et al. 2007, AJ, 133, 2222  \\
+%Shen et al. 2009, ApJ, 697, 1656 \\
+%Slosar et al, 2011, JCAP, 09, 1 \\
+%Thorne, {\it Gravitational Radiation} 1987 \\
+%Wang et al., 2009, ApJ, 697, L141 \\
+%Wardlow et al., 2011, MNRAS, 415, 1479 \\
+%West et al., 2010, SPIE, 7731E, 1O\\
+%White, astro-ph/0305474v1 \\
+\end{multicols}
+
+\end{document}

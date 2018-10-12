@@ -1,0 +1,139 @@
+\documentclass[oneside, a4paper, onecolumn, 11pt]{article}
+
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{sectsty}
+\chapterfont{\color{blue}}                   % sets colour of chapters
+\sectionfont{\color{cyan}}                   % Cerulean
+\subsectionfont{\color{ProcessBlue}}  % MidnightBlue, CornflowerBlue, NavyBlue ProcessBlue
+
+\input{format}
+
+%\usepackage[left=2.05cm,top=2.05cm,bottom=1.55cm,right=2.05cm]{geometry}
+\usepackage[left=2.05cm,top=2.05cm,right=2.05cm]{geometry}
+\setlength{\bibsep}{0.0pt}
+
+
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+
+\tcbset{tab1/.style={enhanced, fonttitle=\bfseries, fontupper=\normalsize\sffamily,
+colback=yellow!10!white,
+colframe=red!50!black,
+colbacktitle=Cerulean!40!white,
+coltitle=black,center title}
+%subtitle style={boxrule=0.4pt, colback=yellow!50!red!25!white} 
+}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\renewcommand{\thesection}{\alph{section}}
+%\renewcommand{\thesubsection}{\alph{subsection}}
+
+\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+%\pagestyle{empty}
+\fancyhf{}
+\lhead{{\it Ross}}
+\chead{Part B2}
+\rhead{Q4D}
+\setcounter{page}{1}
+\lfoot{{\it ERC-COG-2018}}
+\rfoot{{\it Scientific Proposal}}
+\cfoot{{\it Page \thepage\ of 15}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+
+\begin{document}
+
+\begin{center}
+\large \textbf{ERC Consolidator Grant 2018} \\
+\large \textbf{Research proposal [Part B2]}  \\
+\large \textbf{\emph{(not evaluated in Step 1)}}
+\end{center}
+
+
+%\tableofcontents
+\noindent
+\textbf{\textcolor{Cerulean}{Part B2: \emph{\underline{The scientific proposal}} (max. 15 pages, references do not count towards the page limits)}}\\
+
+\noindent
+{\it 
+All massive galaxies are thought to have supermassive black holes at
+their centres, and to have undergone a ``quasar phase'' in their
+past. Along with fusion in stars, accretion onto the central
+supermassive black hole is the main energy source available to a
+galaxy. However, we are missing a deep understanding of galaxy
+formation theory since we still do not understand in key detail how
+the energy associated with the quasar escapes the central engine to
+impact the host galaxy and the intergalactic medium. Further issues
+arise since recent observations of extreme variability where some
+quasars show changes in luminosity and activity over the course of
+weeks to years, have broken standard viscous accretion disk models.
+
+\smallskip
+\smallskip
+\noindent
+In Q4D we will address these outstanding issues in order to move the
+field forward.  Q4D has several ambitious goals: {\it (i)} to characterize
+the variable extragalactic universe and quasar population and in doing
+so kick start the new field of variable extragalactic astrophysics;
+{\it (ii)} to create a holistic theory of accretion disk physics and
+quasar feedback in galaxy formation theory, and {\it (iii)} discover
+brand new astronomical phenomena.
+
+\smallskip
+\smallskip
+\noindent
+We will achieve this by combining the data from several
+next-generation state-of-the art surveys (SDSS-V, DESI, LSST, 4MOST,
+ESA {\it Euclid} and JWST) in order to go beyond the state-of-the-art
+and construct the extragalactic dataset with the crucial time-domain
+aspect that is necessary to address the current challenges.  This will
+allow substantial advances in the frontiers of understanding
+astrophysical phenomena as well as discovering new objects.  The
+experience of the PI (Nicholas P. Ross; NPR) along with the strategic
+data nexus aspect of the Royal Observatory at the University of
+Edinburgh makes my group uniquely positioned to address this problem
+and carry out this research.  }
+
+
+\vspace{-4pt}
+
+\input{objectives}
+
+
+\input{methodology}
+
+
+\input{resources}
+
+
+\newpage
+%%\thispagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2018-CoG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{Part B2}
+\rhead{Q4D}
+\setcounter{page}{1}
+\lfoot{{\it ERC-COG-2018}}
+\rfoot{{\it Scientific Proposal}}
+%\cfoot{{\it Page \thepage\ of 5}}
+
+%\input{references}
+\bibliographystyle{plainnat}
+\bibliography{/cos_pc19a_npr/LaTeX/tester_mnras}
+
+
+
+
+\end{document}
+

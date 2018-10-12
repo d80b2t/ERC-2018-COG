@@ -1,0 +1,134 @@
+\documentclass[oneside, a4paper, onecolumn, 11pt]{article}
+
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{sectsty}
+\chapterfont{\color{blue}}  % sets colour of chapters
+\sectionfont{\color{cyan}}  % Cerulean
+\subsectionfont{\color{ProcessBlue}}  % MidnightBlue, CornflowerBlue, NavyBlue ProcessBlue
+
+\input{format}
+
+%\usepackage[left=2.05cm,top=2.05cm,bottom=1.55cm,right=2.05cm]{geometry}
+\usepackage[left=2.05cm,top=2.05cm,right=2.05cm]{geometry}
+\setlength{\bibsep}{0.0pt}
+
+
+\tcbuselibrary{skins}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+
+\tcbset{tab1/.style={enhanced, fonttitle=\bfseries, fontupper=\normalsize\sffamily,
+colback=yellow!10!white,
+colframe=red!50!black,
+colbacktitle=Cerulean!40!white,
+coltitle=black,center title}
+%subtitle style={boxrule=0.4pt, colback=yellow!50!red!25!white} 
+}
+
+%% To fix list things: 
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+
+\renewcommand{\thesection}{\alph{section}}
+%\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{0pt}  %% Remove line at top
+
+%\pagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2015-StG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{Part B2}
+\rhead{Q4D}
+\setcounter{page}{1}
+\lfoot{{\it ERC-COG-2018}}
+\rfoot{{\it Scientific Proposal}}
+\cfoot{{\it Page \thepage\ of 15}}
+%\rfoot{{\it FP7-PEOPLE-2013-IIF}}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+
+\begin{document}
+
+\begin{center}
+{\Large \bf \textcolor{Cerulean}{Q4D: Quasars in the 4th Dimension\\}}
+%\vspace{4pt} 
+ %{\Large \bf \textcolor{Cerulean}{the new field of Extragalactic Variable Astrophysics} }
+\end{center}
+\vspace{-16pt} 
+
+\tableofcontents
+
+%\medskip \medskip 
+\medskip \medskip
+%\begin{quotation}
+\noindent
+{\it 
+All massive galaxies are thought to have supermassive black holes at
+their centres, and to have undergone a ``quasar phase'' in
+their past. Along with fusion in stars, accretion onto the central
+supermassive black hole is the main energy source available to a
+galaxy. However, we are missing a deep understanding of galaxy
+formation theory since we still do not understand in key detail how
+the energy associated with the quasar escapes the central engine to impact the host galaxy and
+the intergalactic medium. Further issues arise since recent
+observations of extreme variability in quasars have broken standard
+viscous accretion disk models.
+
+\smallskip
+\smallskip
+\noindent
+In this proposal, we propose the ground breaking idea combining the
+data from several next-generation state-of-the art surveys (SDSS-V,
+DESI, LSST, 4MOST, ESA {\it Euclid} and JWST) in order to go beyond
+the state-of-the-art and construct the extragalactic dataset with the
+crucial time-domain aspect that is necessary to address these current
+challenges.  The experience of the P.I., along with the strategic
+data nexus aspect of the Royal Observatory at the University of
+Edinburgh makes our group uniquely placed to address and answer this
+problem.  Our goal is to create a holistic theory of accretion disk
+physics and quasar feedback in galaxy formation theory. We are also
+extremely well placed to discover brand new extragalactic variable
+phenomena.
+}
+%\end{quotation}
+\vspace{-20pt}
+
+
+\input{objectives}
+
+
+\input{methodology}
+
+
+\input{resources}
+
+
+\newpage
+%%\thispagestyle{empty}
+\fancyhf{}
+%\lhead{{\it ERC-2018-CoG}}
+%\lhead{{\it DEQUASARS: Part B1 }}
+\lhead{{\it Ross}}
+\chead{Part B2}
+\rhead{Q4D}
+\setcounter{page}{1}
+\lfoot{{\it ERC-COG-2018}}
+\rfoot{{\it Scientific Proposal}}
+%\cfoot{{\it Page \thepage\ of 5}}
+
+%\input{references}
+\bibliographystyle{plainnat}
+\bibliography{/cos_pc19a_npr/LaTeX/tester_mnras}
+
+
+
+
+\end{document}
+
